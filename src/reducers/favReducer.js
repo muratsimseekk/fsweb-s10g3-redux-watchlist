@@ -1,4 +1,4 @@
-import { ADD_LIST } from "../actions/favAction";
+import { ADD_LIST, REMOVE_LIST } from "../actions/favAction";
 import { movies } from "../movies";
 
 
@@ -14,15 +14,18 @@ const favReducer = (state = favInitialState , action) => {
             if (!state.favorites.some(item => item.id ===action.payload.id)){
                 return {
                     ...state,
-                    favorites :  [...state.favorites , action.payload]
-                    
+                    favorites :  [...state.favorites , action.payload] 
                 }
                 break;
             }
             else{
                 return state
             }
-            
+        case REMOVE_LIST:
+            return {
+                ...state,
+                favorites : state.favorites.filter(item=> item.id !==action.payload)
+            }    
     
         default:
            return state
