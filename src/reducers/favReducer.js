@@ -1,7 +1,5 @@
 import { ADD_LIST, REMOVE_LIST } from "../actions/favAction";
-import { movies } from "../movies";
-
-
+ 
 
 const favInitialState = {
     favorites: []
