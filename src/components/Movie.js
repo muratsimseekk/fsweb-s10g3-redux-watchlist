@@ -1,7 +1,15 @@
+import { useSelector } from "react-redux";
 import { movies } from "./../movies";
 
 export default function Movie(props) {
+
+  // Store içerisinde duran veriler projede nerede kullanılacak? **`useSelector`** hooku ile store içerisinden gerekli verileri alın ve ilgili yerlerde kullanın.
+  
+  const favorites = useSelector(store => store.favorites)
+  console.log('favorites',favorites);
+
   const movie = movies[props.sira];
+  // console.log('movie',movie);
 
   return (
     <div className="flex bg-white shadow-lg items-start">

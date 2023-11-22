@@ -12,11 +12,11 @@ Dünkü projede, büyük bir film yönetim uygulaması ile çalıştınız. Film
 
 ### Görev 1: Proje Kurulumu
 
-- [ ] Forklayın.
-- [ ] Klonlayın
-- [ ] Ana dizine gidin
-- [ ] `npm install`
-- [ ] `npm start`
+- [+] Forklayın.
+- [+] Klonlayın
+- [+] Ana dizine gidin
+- [+] `npm install`
+- [+] `npm start`
 
 ### Görev 2: Proje Gereksinimleri
 
@@ -25,15 +25,15 @@ Proje `movies.js` dosyasında yer alan filmleri sırayla görüntüleyebildiniz 
 - Filmler arasında "Sıradaki" butonu ile dolaşılabilmeli,
 - Listeye eklenen filmler anasayfada görüntülenmemeli.
 
-* [ ] Projeyi inceleyin ve componentların birbiriyle ilişkisini anlayın.
+* [+] Projeyi inceleyin ve componentların birbiriyle ilişkisini anlayın.
 
-* [ ] `redux` ve `react-redux` paketlerini projenize ekleyin.
+* [+] `redux` ve `react-redux` paketlerini projenize ekleyin.
 
 * [ ] Projede kullanılan verilerin hangileri redux store'u içerisinde tutulmalı? Bu verilerden `initialState` olarak kullanılması gereken var mı? Planlayın.
 
 * [ ] Proje içerisinde store içerisindeki veriyi hangi fonksiyonlarla değiştirmeniz gerekecek? Düşünün ve reducerınızı oluşturmaya başlayın.
 
-* [ ] **`store`** oluşturmanın vakti geldi. Tüm uygulamanızı kapsayacak şekilde bir store oluşturun.
+* [+] **`store`** oluşturmanın vakti geldi. Tüm uygulamanızı kapsayacak şekilde bir store oluşturun.
 
 * [ ] Store içerisinde duran veriler projede nerede kullanılacak? **`useSelector`** hooku ile store içerisinden gerekli verileri alın ve ilgili yerlerde kullanın.
 
